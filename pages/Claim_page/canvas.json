@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 760,
+          "bottomRow": 820,
           "containerStyle": "none",
           "snapRows": 57,
           "parentRowSpace": 1,
@@ -61,7 +61,7 @@
               "text": "Ford Motor Company",
               "key": "mlp2xhn8k8",
               "isDeprecated": false,
-              "rightColumn": 19,
+              "rightColumn": 33,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "1oj8bv2357",
@@ -77,7 +77,7 @@
               "originalTopRow": 6,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 14,
+              "originalBottomRow": 22,
               "fontSize": "1.875rem",
               "minDynamicHeight": 4
             },
@@ -91,7 +91,7 @@
                 "label"
               ],
               "topRow": 7,
-              "bottomRow": 11,
+              "bottomRow": 15,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -130,8 +130,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
+              "originalTopRow": 7,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
+              "originalBottomRow": 11,
               "fontSize": "1.25rem",
               "minDynamicHeight": 4
             },
@@ -143,8 +145,8 @@
               "searchTags": [
                 "line"
               ],
-              "topRow": 17,
-              "bottomRow": 21,
+              "topRow": 18,
+              "bottomRow": 22,
               "parentRowSpace": 10,
               "type": "DIVIDER_WIDGET",
               "capType": "nc",
@@ -168,8 +170,8 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 17,
-              "originalBottomRow": 21
+              "originalTopRow": 25,
+              "originalBottomRow": 29
             },
             {
               "widgetName": "Text3",
@@ -180,8 +182,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 24,
-              "bottomRow": 30,
+              "topRow": 25,
+              "bottomRow": 36,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -220,10 +222,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 24,
+              "originalTopRow": 32,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 30,
+              "originalBottomRow": 43,
               "fontSize": "1.25rem",
               "minDynamicHeight": 4
             },
@@ -238,8 +240,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 33,
-              "bottomRow": 44,
+              "topRow": 39,
+              "bottomRow": 50,
               "parentRowSpace": 10,
               "type": "ICON_BUTTON_WIDGET",
               "hideCard": false,
@@ -271,9 +273,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 33,
+              "originalTopRow": 46,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 44,
+              "originalBottomRow": 57,
               "buttonVariant": "PRIMARY"
             },
             {
@@ -281,8 +283,8 @@
               "widgetName": "Image1",
               "displayName": "Image",
               "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
-              "topRow": 47,
-              "bottomRow": 76,
+              "topRow": 53,
+              "bottomRow": 82,
               "parentRowSpace": 10,
               "type": "IMAGE_WIDGET",
               "hideCard": false,
@@ -310,9 +312,9 @@
               "isLoading": false,
               "maxZoomLevel": 1,
               "enableDownload": false,
-              "originalTopRow": 47,
+              "originalTopRow": 60,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 76,
+              "originalBottomRow": 89,
               "enableRotation": false
             }
           ]
