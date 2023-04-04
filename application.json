@@ -47,7 +47,7 @@
   },
   "publishedApplicationDetail": {
     "navigationSetting": {
-      "showNavbar": true,
+      "showNavbar": false,
       "orientation": "top",
       "navStyle": "inline",
       "position": "static",
