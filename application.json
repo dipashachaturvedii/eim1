@@ -31,6 +31,10 @@
     {
       "id": "welcome",
       "isDefault": false
+    },
+    {
+      "id": "unauthorised",
+      "isDefault": false
     }
   ],
   "viewMode": false,
