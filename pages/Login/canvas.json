@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 650,
+          "bottomRow": 640,
           "containerStyle": "none",
           "snapRows": 57,
           "parentRowSpace": 1,
@@ -133,7 +133,7 @@
                 "group"
               ],
               "topRow": 26,
-              "bottomRow": 65,
+              "bottomRow": 64,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -158,7 +158,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 390,
+                  "bottomRow": 380,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -226,7 +226,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button2",
-                      "onClick": "{{navigateTo('customer_details', {}, 'SAME_WINDOW')}}",
+                      "onClick": "",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -234,8 +234,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 33,
-                      "bottomRow": 37,
+                      "topRow": 32,
+                      "bottomRow": 36,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -244,7 +244,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 53,
+                      "leftColumn": 49,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -257,7 +257,7 @@
                       "isDisabled": false,
                       "key": "7xysp4eo0r",
                       "isDeprecated": false,
-                      "rightColumn": 64,
+                      "rightColumn": 63,
                       "isDefaultClickDisabled": true,
                       "widgetId": "5iexeaih0y",
                       "minWidth": 120,
@@ -285,8 +285,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 33,
-                      "bottomRow": 37,
+                      "topRow": 32,
+                      "bottomRow": 36,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -295,7 +295,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 37,
+                      "leftColumn": 34,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -308,7 +308,7 @@
                       "isDisabled": false,
                       "key": "7xysp4eo0r",
                       "isDeprecated": false,
-                      "rightColumn": 53,
+                      "rightColumn": 49,
                       "isDefaultClickDisabled": true,
                       "widgetId": "uo0ayb703y",
                       "minWidth": 120,
