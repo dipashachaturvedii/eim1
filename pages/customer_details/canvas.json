@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1430,
+          "bottomRow": 1510,
           "containerStyle": "none",
           "snapRows": 57,
           "parentRowSpace": 1,
@@ -141,7 +141,7 @@
                           "iconName": "person",
                           "textColor": "#18181b",
                           "backgroundColor": "#e9d5ff",
-                          "onClick": "{{(()=>{\nstoreValue('user',undefined);\nnavigateTo('Login');\n})()}}"
+                          "onClick": "{{clearStore('user',undefined);\nnavigateTo('Login');}}"
                         },
                         "menuItem3": {
                           "label": "About",
@@ -260,7 +260,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Ford Motor Company",
+                      "text": "Fort Motor Company",
                       "key": "mlp2xhn8k8",
                       "isDeprecated": false,
                       "rightColumn": 37,
@@ -407,7 +407,7 @@
                           "widgetName": "Canvas1",
                           "displayName": "Canvas",
                           "topRow": 0,
-                          "bottomRow": 400,
+                          "bottomRow": 490,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
@@ -472,7 +472,7 @@
                               "originalTopRow": 2,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "maxDynamicHeight": 9000,
-                              "originalBottomRow": 11,
+                              "originalBottomRow": 6,
                               "fontSize": "1rem",
                               "minDynamicHeight": 4
                             },
@@ -528,10 +528,68 @@
                               "renderMode": "CANVAS",
                               "isLoading": false,
                               "responsiveBehavior": "fill",
-                              "originalTopRow": 2,
+                              "originalTopRow": 6,
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "maxDynamicHeight": 9000,
-                              "originalBottomRow": 11,
+                              "originalBottomRow": 10,
+                              "fontSize": "1rem",
+                              "minDynamicHeight": 4
+                            },
+                            {
+                              "widgetName": "Text4",
+                              "borderColor": "#1e3a8a",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+                              "searchTags": [
+                                "typography",
+                                "paragraph",
+                                "label"
+                              ],
+                              "topRow": 11,
+                              "bottomRow": 49,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                              "parentColumnSpace": 14.0625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 1,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "truncateButtonColor"
+                                },
+                                {
+                                  "key": "fontFamily"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "text": "ID : 63581743\n\nBIRTH : 16 March 1992\n\nTravel Time : 1 Year\n\nCar Type: Ford Aspire\n\nBought on: 2018\n\nInsurance Claim Status : None\n\nInsurance Coverage: \n\n1. Uninsured Motorist ; 2. Collision\n\nInsurance Claim Amount: 2,21,471\n\nTime Valid: 5 Years",
+                              "key": "mlp2xhn8k8",
+                              "isDeprecated": false,
+                              "rightColumn": 63,
+                              "backgroundColor": "#fafafa",
+                              "textAlign": "LEFT",
+                              "dynamicHeight": "AUTO_HEIGHT",
+                              "widgetId": "k13aem0ovj",
+                              "minWidth": 450,
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#18181b",
+                              "version": 1,
+                              "parentId": "lew59tkopk",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "responsiveBehavior": "fill",
+                              "originalTopRow": 11,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "maxDynamicHeight": 9000,
+                              "originalBottomRow": 49,
                               "fontSize": "1rem",
                               "minDynamicHeight": 4
                             }
@@ -666,64 +724,6 @@
                       "originalBottomRow": 95,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
-                    },
-                    {
-                      "widgetName": "Text4",
-                      "borderColor": "#1e3a8a",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 96,
-                      "bottomRow": 134,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 14.0625,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 8,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "ID : 63581743\n\nBIRTH : 16 March 1992\n\nTravel Time : 1 Year\n\nCar Type: Ford Aspire\n\nBought on: 2018\n\nInsurance Claim Status : None\n\nInsurance Coverage: \n\n1. Uninsured Motorist ; 2. Collision\n\nInsurance Claim Amount: 2,21,471\n\nTime Valid: 5 Years",
-                      "key": "mlp2xhn8k8",
-                      "isDeprecated": false,
-                      "rightColumn": 57,
-                      "backgroundColor": "#fafafa",
-                      "textAlign": "CENTER",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "k13aem0ovj",
-                      "minWidth": 450,
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#18181b",
-                      "version": 1,
-                      "parentId": "v6j8jsh123",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "responsiveBehavior": "fill",
-                      "originalTopRow": 96,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 134,
-                      "fontSize": "1rem",
-                      "minDynamicHeight": 4
                     }
                   ],
                   "isDisabled": false,
