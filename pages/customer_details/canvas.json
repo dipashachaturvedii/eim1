@@ -446,14 +446,11 @@
                                 },
                                 {
                                   "key": "borderRadius"
-                                },
-                                {
-                                  "key": "text"
                                 }
                               ],
                               "shouldTruncate": false,
                               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "text": "{{appsmith.user.name}}",
+                              "text": "DIPASHA CHATURVEDI",
                               "key": "qn0fkczbr1",
                               "isDeprecated": false,
                               "rightColumn": 60,
@@ -569,7 +566,7 @@
                               ],
                               "shouldTruncate": false,
                               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "text": "ID : 63581743\n\nBIRTH : 16 March 1992\n\nTravel Time : 1 Year\n\nCar Type: Ford Aspire\n\nBought on: 2018\n\nInsurance Claim Status : None\n\nInsurance Coverage: \n\n1. Uninsured Motorist ; 2. Collision\n\nInsurance Claim Amount: 2,21,471\n\nTime Valid: 5 Years",
+                              "text": "ID : 63581743\n\nBIRTH : 18 April 1999\n\nTravel Time : 1 Year\n\nCar Type: Ford Aspire\n\nBought on: 2018\n\nInsurance Claim Status : None\n\nInsurance Coverage: \n\n1. Uninsured Motorist ; 2. Collision\n\nInsurance Claim Amount: 20,000$\n\nTime Valid: 5 Years",
                               "key": "mlp2xhn8k8",
                               "isDeprecated": false,
                               "rightColumn": 63,
