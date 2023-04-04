@@ -27,6 +27,10 @@
     {
       "id": "About",
       "isDefault": false
+    },
+    {
+      "id": "welcome",
+      "isDefault": false
     }
   ],
   "viewMode": false,
