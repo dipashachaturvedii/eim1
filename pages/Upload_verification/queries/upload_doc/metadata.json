@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "upload_aadhar",
+    "name": "upload_doc",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -59,7 +59,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Upload_verification_upload_aadhar",
+  "id": "Upload_verification_upload_doc",
   "deleted": false,
   "gitSyncId": "641c59d84b58b56f8e3772d5_642c24b2c5ccee14a3691b83"
 }

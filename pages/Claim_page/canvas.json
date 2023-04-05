@@ -61,7 +61,7 @@
                   "tabId": "tab1",
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
-                  "bottomRow": 740,
+                  "bottomRow": 780,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
@@ -437,7 +437,7 @@
                   "tabId": "tab2",
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
-                  "bottomRow": 740,
+                  "bottomRow": 780,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
@@ -619,7 +619,7 @@
               "widgetId": "53vjno2vvm",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "defaultTab": "{{appsmith.store.user.token?'claimed':'false_claim'}}",
-              "shouldShowTabs": true,
+              "shouldShowTabs": false,
               "minWidth": 450,
               "tabsObj": {
                 "tab1": {
