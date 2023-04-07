@@ -124,8 +124,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 35,
-                      "bottomRow": 39,
+                      "topRow": 33,
+                      "bottomRow": 37,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -157,10 +157,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
-                      "originalTopRow": 37,
+                      "originalTopRow": 35,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 41,
+                      "originalBottomRow": 39,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -174,7 +174,7 @@
                         "label"
                       ],
                       "topRow": 27,
-                      "bottomRow": 33,
+                      "bottomRow": 31,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -183,7 +183,7 @@
                       "fontFamily": "Montserrat",
                       "parentColumnSpace": 5.99658203125,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 12,
+                      "leftColumn": 2,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -200,7 +200,7 @@
                       "text": "Welcome {{continue_api.data.name}}!",
                       "key": "qn0fkczbr1",
                       "isDeprecated": false,
-                      "rightColumn": 48,
+                      "rightColumn": 62,
                       "textAlign": "CENTER",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "yteezogiuk",
@@ -216,7 +216,7 @@
                       "originalTopRow": 27,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 35,
+                      "originalBottomRow": 33,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     }
