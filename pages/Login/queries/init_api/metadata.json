@@ -27,7 +27,7 @@
       "queryParameters": [
         {
           "key": "redirect_uri",
-          "value": "https://app.appsmith.com/app/car-insurance/welcome-642ba6c9bc644a2f6df05950/edit?branch=main"
+          "value": "https://app.appsmith.com/app/car-insurance/welcome-642ba6c9bc644a2f6df05950?branch=main"
         }
       ],
       "bodyFormData": [],

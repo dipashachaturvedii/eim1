@@ -456,7 +456,7 @@
                       "parentColumnSpace": 8.916015625,
                       "dynamicTriggerPathList": [],
                       "imageShape": "RECTANGLE",
-                      "leftColumn": 4,
+                      "leftColumn": 2,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -466,7 +466,7 @@
                       "key": "mmgvs824t0",
                       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNpjyNTe5iy_54sFlL_oyu5vSEb2qb_poGjQ&usqp=CAU",
                       "isDeprecated": false,
-                      "rightColumn": 29,
+                      "rightColumn": 27,
                       "objectFit": "cover",
                       "widgetId": "vwr7cclsa0",
                       "isVisible": true,
@@ -505,7 +505,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 37,
+                      "leftColumn": 35,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -533,7 +533,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "buttonVariant": "TERTIARY",
                       "iconAlign": "right",
-                      "placement": "CENTER"
+                      "placement": "START"
                     },
                     {
                       "boxShadow": "none",
@@ -549,7 +549,7 @@
                       "parentColumnSpace": 6.53125,
                       "dynamicTriggerPathList": [],
                       "imageShape": "RECTANGLE",
-                      "leftColumn": 31,
+                      "leftColumn": 29,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -559,7 +559,7 @@
                       "key": "sppl2y7c3l",
                       "image": "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png",
                       "isDeprecated": false,
-                      "rightColumn": 37,
+                      "rightColumn": 35,
                       "objectFit": "cover",
                       "widgetId": "d2nxe0wmwi",
                       "isVisible": true,

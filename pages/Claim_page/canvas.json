@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 780,
+          "bottomRow": 860,
           "containerStyle": "none",
           "snapRows": 57,
           "parentRowSpace": 1,
@@ -259,7 +259,7 @@
                       "minWidth": 450,
                       "isVisible": true,
                       "fontStyle": "BOLD",
-                      "textColor": "#14532d",
+                      "textColor": "#312e81",
                       "version": 1,
                       "parentId": "zzh3zzmxs6",
                       "renderMode": "CANVAS",
@@ -275,7 +275,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "IconButton1",
-                      "onClick": "{{navigateTo('Payment', {}, 'SAME_WINDOW')}}",
+                      "onClick": "{{navigateTo('Home Page', {}, 'SAME_WINDOW')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Icon Button",
                       "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
@@ -295,7 +295,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 12,
+                      "leftColumn": 4,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -307,7 +307,7 @@
                       "isDisabled": false,
                       "key": "pcsuoy7eym",
                       "isDeprecated": false,
-                      "rightColumn": 23,
+                      "rightColumn": 15,
                       "iconName": "credit-card",
                       "widgetId": "9v0cgff9yl",
                       "minWidth": 50,
@@ -340,7 +340,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 6.53125,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 27,
+                      "leftColumn": 16,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -354,10 +354,10 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Click to process transaction",
+                      "text": "Kindly check your mail for further directions.",
                       "key": "vk0dabd4h7",
                       "isDeprecated": false,
-                      "rightColumn": 60,
+                      "rightColumn": 63,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "o0wbr0jk0d",
